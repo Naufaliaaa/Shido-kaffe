@@ -97,7 +97,7 @@ export default function Navbar() {
                         >
                             <a href="https://www.instagram.com/shidokoffee/" target="_blank" rel="noopener noreferrer">Instagram</a>
                             <a href="#">Twitter</a>
-                            <a href="#">LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/kamar-gadget/posts/?feedView=all" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </motion.div>
                     </motion.div>
                 )}
