@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <div className="mt-24 pt-8 border-t border-neutral-900 flex justify-between text-xs uppercase opacity-50">
                 <span>© 2026 Shido Coffee</span>
-                <span>Made by Antigravity</span>
+                <span>Made by Naufal Zul Faza</span>
             </div>
         </footer>
     );
