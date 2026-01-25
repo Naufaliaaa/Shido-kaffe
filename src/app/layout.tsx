@@ -13,9 +13,6 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: 'Shido Coffee',
   description: 'Premium Japanese Single Origin Coffee',
-  icons: {
-    icon: '/IMG/logo.jpeg',
-  },
 };
 
 export default function RootLayout({
