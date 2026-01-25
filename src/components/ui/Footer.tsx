@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="grid grid-cols-2 gap-12 text-sm uppercase tracking-widest">
                     <div className="flex flex-col gap-4">
                         <span className="text-white font-bold">Explore</span>
-                        <a href="#" className="hover:text-[#d4af37] transition-colors">Shop</a>
+                        <a href="https://drive.google.com/file/d/142NVK16WHAChsADmsfMNYvQE3Dm1EoGi/view" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Menu</a>
                         <a href="#" className="hover:text-[#d4af37] transition-colors">Subscription</a>
                         <a href="https://maps.app.goo.gl/9254dW5t56AeVAiHA" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Locations</a>
                     </div>

@@ -9,7 +9,7 @@ import Link from 'next/link';
 const navLinks = [
     { title: 'Origins', href: '#origins' },
     { title: 'The Roast', href: '#roast' },
-    { title: 'Shop', href: '#shop' },
+    { title: 'Menu', href: 'https://drive.google.com/file/d/142NVK16WHAChsADmsfMNYvQE3Dm1EoGi/view' },
     { title: 'Contact', href: '#contact' },
 ];
 
