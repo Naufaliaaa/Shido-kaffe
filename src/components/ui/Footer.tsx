@@ -17,7 +17,6 @@ export default function Footer() {
                     <div className="flex flex-col gap-4">
                         <span className="text-white font-bold">Connect</span>
                         <a href="https://www.instagram.com/shidokoffee/" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Instagram</a>
-                        <a href="#" className="hover:text-[#d4af37] transition-colors">Twitter</a>
                         <a href="#" className="hover:text-[#d4af37] transition-colors">Support</a>
                     </div>
                 </div>
