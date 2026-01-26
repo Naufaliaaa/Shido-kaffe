@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-4">
                         <span className="text-white font-bold">Explore</span>
                         <a href="https://drive.google.com/file/d/142NVK16WHAChsADmsfMNYvQE3Dm1EoGi/view" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Menu</a>
-                        <a href="#" className="hover:text-[#d4af37] transition-colors">Subscription</a>
+                        <a href="https://linktr.ee/shidokoffee?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn5C-iNe-jAL1_MWa6-Tez2p1nRBtdRecv68dm00NN6kG85zC--XTIIRxCe_0_aem_VIr-FENi__SQpPgv490hYw" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Subscription</a>
                         <a href="https://maps.app.goo.gl/9254dW5t56AeVAiHA" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4af37] transition-colors">Locations</a>
                     </div>
                     <div className="flex flex-col gap-4">
