@@ -1,3 +1,5 @@
+'use client';
+
 import Navbar from '@/components/ui/Navbar';
 import Footer from '@/components/ui/Footer';
 import { Search, ChevronDown, ChevronUp, Coffee, Package, Truck, MessageCircle } from 'lucide-react';
