@@ -40,7 +40,7 @@ const guides = [
         icon: Package,
         title: "Orders & Menu",
         description: "Informasi produk, harga, dan cara pemesanan.",
-        link: "#"
+        link: "https://drive.google.com/file/d/142NVK16WHAChsADmsfMNYvQE3Dm1EoGi/view"
     },
     {
         icon: Truck,
