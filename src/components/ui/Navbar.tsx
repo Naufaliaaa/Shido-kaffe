@@ -10,6 +10,7 @@ const navLinks = [
     { title: 'Origins', href: '#origins' },
     { title: 'The Roast', href: '#roast' },
     { title: 'Menu', href: 'https://drive.google.com/file/d/142NVK16WHAChsADmsfMNYvQE3Dm1EoGi/view' },
+    { title: 'Brewing', href: '/brewing-guides' },
     { title: 'Support', href: '/support' },
     { title: 'Contact', href: 'https://wa.me/6288224461483' },
 ];

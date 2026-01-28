@@ -34,7 +34,7 @@ const guides = [
         icon: Coffee,
         title: "Brewing Guides",
         description: "Panduan lengkap menyeduh berbagai metode kopi.",
-        link: "#"
+        link: "/brewing-guides"
     },
     {
         icon: Package,
