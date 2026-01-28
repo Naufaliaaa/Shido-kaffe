@@ -47,7 +47,7 @@ export default function Navbar() {
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-6 md:p-12 mix-blend-difference text-white">
-                <Link href="/" className="text-2xl font-bold tracking-tighter uppercase">
+                <Link href="/" className="text-2xl font-bold tracking-tighter uppercase text-[#d4af37]">
                     Shido
                 </Link>
                 <button onClick={toggleMenu} className="group flex items-center gap-2">
