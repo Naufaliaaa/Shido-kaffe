@@ -215,7 +215,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Made with ❤️ by Naufal Zul Faza Coder**
 
-*© 2026 Shido Coffee. All rights reserved.*
+*© 2025 Shido Coffee. All rights reserved.*
 
 </div>
 
