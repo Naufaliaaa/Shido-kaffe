@@ -215,7 +215,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Developer**
 
 🌐 [Website](https://naufaliaaa.github.io/MyPortfolio/)  
-📸 [Instagram](https://instagram.com/shidokoffee)  
+📸 [Instagram](https://www.instagram.com/_naufaliaaa/)  
 💬 [WhatsApp](https://wa.me/6288224461483)
 
 ---
