@@ -216,7 +216,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 🌐 [Website](https://naufaliaaa.github.io/MyPortfolio/)  
 📸 [Instagram](https://www.instagram.com/_naufaliaaa/)  
-💬 [WhatsApp](https://wa.me/6288224461483)
+💬 [WhatsApp](https://wa.me/6283829586688)
 
 ---
 
