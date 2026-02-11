@@ -212,6 +212,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 💬 [WhatsApp](https://wa.me/6288224461483)
 
 ---
+**Developer**
+
+🌐 [Website](https://shidokoffee.com)  
+📸 [Instagram](https://instagram.com/shidokoffee)  
+💬 [WhatsApp](https://wa.me/6288224461483)
+
+---
 
 **Made with ❤️ by Naufal Zul Faza Coder**
 
