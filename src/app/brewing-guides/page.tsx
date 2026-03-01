@@ -2,7 +2,7 @@
 
 import Navbar from '@/components/ui/Navbar';
 import Footer from '@/components/ui/Footer';
-import { Coffee, Thermometer, Clock, Scale, Droplets, ChevronRight, ArrowLeft } from 'lucide-react';
+import { Coffee, Thermometer, Clock, Droplets, ChevronRight, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

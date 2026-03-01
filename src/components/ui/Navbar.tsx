@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, type Variants } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
@@ -20,8 +20,7 @@ export default function Navbar() {
 
     const toggleMenu = () => setIsOpen(!isOpen);
 
-    // Cast as any to avoid Framer Motion strict typing issues with specific versions
-    const menuVariants: any = {
+    const menuVariants: Variants = {
         initial: { scaleY: 0 },
         animate: {
             scaleY: 1,
@@ -33,14 +32,14 @@ export default function Navbar() {
         },
     };
 
-    const containerVars: any = {
+    const containerVars: Variants = {
         initial: { transition: { staggerChildren: 0.09, staggerDirection: -1 } },
         open: {
             transition: { delayChildren: 0.3, staggerChildren: 0.09, staggerDirection: 1 },
         },
     };
 
-    const linkVars: any = {
+    const linkVars: Variants = {
         initial: { y: "30vh", transition: { duration: 0.5, ease: "easeInOut" } },
         open: { y: 0, transition: { ease: "easeInOut", duration: 0.7 } },
     };

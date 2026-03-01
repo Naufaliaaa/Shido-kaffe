@@ -1,7 +1,7 @@
 'use client';
 
 import { useScroll, useTransform, motion, useMotionValueEvent } from 'framer-motion';
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState, useCallback } from 'react';
 import { cn } from '@/lib/utils';
 
 interface SequenceScrollProps {
@@ -47,7 +47,7 @@ export default function SequenceScroll({ className }: SequenceScrollProps) {
         }
     }, []);
 
-    const renderFrame = (index: number) => {
+    const renderFrame = useCallback((index: number) => {
         const canvas = canvasRef.current;
         if (!canvas || images.length === 0) return;
 
@@ -76,7 +76,7 @@ export default function SequenceScroll({ className }: SequenceScrollProps) {
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
-    };
+    }, [images]);
 
     useMotionValueEvent(currentIndex, 'change', (latest) => {
         if (isLoaded) {
@@ -95,7 +95,12 @@ export default function SequenceScroll({ className }: SequenceScrollProps) {
                 canvasRef.current.height = window.innerHeight;
                 // Re-render current frame on resize
                 if (images.length > 0) {
-                    renderFrame(Math.round(currentIndex.get()));
+                    const currentProgress = scrollYProgress.get();
+                    const frameIndex = Math.min(
+                        FRAME_COUNT - 1,
+                        Math.max(0, Math.round(currentProgress * (FRAME_COUNT - 1)))
+                    );
+                    renderFrame(frameIndex);
                 }
             }
         };
@@ -104,7 +109,7 @@ export default function SequenceScroll({ className }: SequenceScrollProps) {
         handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
-    }, [isLoaded, images]);
+    }, [isLoaded, images, scrollYProgress, renderFrame]);
 
     return (
         <div ref={containerRef} className={cn("h-[400vh] relative", className)}>
@@ -158,3 +163,4 @@ export default function SequenceScroll({ className }: SequenceScrollProps) {
         </div>
     );
 }
+

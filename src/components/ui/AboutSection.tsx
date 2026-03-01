@@ -2,7 +2,6 @@
 
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
-import { cn } from '@/lib/utils';
 
 export default function AboutSection() {
     const containerRef = useRef<HTMLDivElement>(null);

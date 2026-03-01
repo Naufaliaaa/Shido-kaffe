@@ -31,6 +31,7 @@ export default function Testimonials() {
                     className="flex flex-col gap-8"
                 >
                     <p className="text-3xl md:text-6xl font-serif italic text-neutral-300">
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         "{testimonials[current].text}"
                     </p>
                     <p className="text-[#d4af37] tracking-widest uppercase font-bold text-sm md:text-base">
@@ -51,3 +52,4 @@ export default function Testimonials() {
         </section>
     );
 }
+
