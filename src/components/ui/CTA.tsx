@@ -22,7 +22,7 @@ export default function CTA() {
                     Join the Cult
                 </h2>
                 <p className="text-neutral-400 mb-12 max-w-lg mx-auto uppercase tracking-wide">
-                    Subscribe Today And Never Run Out Of your daily ritual.
+                    Subscribe Today And Never Run Out Of Your Daily Ritual.
                 </p>
                 <button className="px-12 py-5 bg-[#d4af37] text-black font-bold uppercase tracking-widest text-lg hover:scale-105 transition-transform rounded-full">
                     Get Started
